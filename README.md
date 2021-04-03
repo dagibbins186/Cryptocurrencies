@@ -18,3 +18,5 @@ Data cleaning steps included:
 6. Creating a new DataFrame that holds only the cryptocurrency names, and use the crypto_df DataFrame index as the index for this new DataFrame.
 \
 7. Removing the CoinName column from the crypto_df DataFrame since it's not going to be used on the clustering algorithm.
+\
+!["scatter_plot.png"](https://github.com/dagibbins186/Cryptocurrencies/blob/main/Images/scatter_plot.png)
