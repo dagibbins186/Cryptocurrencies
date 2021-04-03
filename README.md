@@ -16,13 +16,13 @@ Data cleaning steps included:
 \
 -Filtering the crypto_df DataFrame so it only has rows where coins have been mined.
 \
--Creating a new DataFrame that holds only the cryptocurrency names, and use the crypto_df DataFrame index as the index for this new DataFrame.
+-Creating a new DataFrame that holds only the cryptocurrency names, and references the crypto_df DataFrame index for this new df.
 \
 -Removing the CoinName column from the crypto_df DataFrame since it's not going to be used on the clustering algorithm.
 \
-
-**Unsupervised Learning**
 \
+**Unsupervised Learning**
+
 PCA is a statistical technique to speed up machine learning algorithms when the number of input features (or dimensions) is too high. In this model, the PCA algorithm reduces the dimensions of the 'pca' DataFrame down to three principal components. Then, the 'pcs_df' DataFrame is created, with columns 'PC 1', 'PC 2','PC 3', and has the index from the 'crypto_df' DataFrame.
 \
 \
@@ -32,6 +32,6 @@ Data visualizatons with results are below:
 \
 !["elbow_curve.png"](https://github.com/dagibbins186/Cryptocurrencies/blob/main/Images/elbow_curve.png)
 \
-!["newplot.png"](https://github.com/dagibbins186/Cryptocurrencies/blob/main/Images/newplot.png)
-\
 !["scatter_plot.png"](https://github.com/dagibbins186/Cryptocurrencies/blob/main/Images/scatter_plot.png)
+\
+!["newplot.png"](https://github.com/dagibbins186/Cryptocurrencies/blob/main/Images/newplot.png)
